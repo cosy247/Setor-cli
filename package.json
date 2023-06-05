@@ -1,0 +1,30 @@
+{
+    "name": "setor-cli",
+    "version": "1.0.0",
+    "description": "⚡Setor脚手架",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack server --config ./webpack/webpack.dev.js",
+        "build": "webpack --config ./webpack/webpack.prod.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cosy247/Setor-cli.git"
+    },
+    "keywords": [
+        "setor",
+        "cli",
+        "setor-cli"
+    ],
+    "author": "cosy247",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cosy247/Setor-cli/issues"
+    },
+    "homepage": "https://github.com/cosy247/Setor-cli#readme",
+    "devDependencies": {
+        "html-webpack-plugin": "^5.5.1",
+        "webpack-cli": "^5.1.3",
+        "webpack-dev-server": "^4.15.0"
+    }
+}

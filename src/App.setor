@@ -1,0 +1,12 @@
+<app-root>
+    <h1>root</h1>
+</app-root>
+
+<script>
+    import { useHub, useProps, useRefs } from 'setor';
+    const refs = useRef();
+    const hub = useHub();
+    const person = (hub.person = {});
+</script>
+
+<style></style>

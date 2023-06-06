@@ -12,6 +12,11 @@ module.exports = (webpackEnv) => {
             filename: 'main.js',
             path: path.resolve(__dirname, 'dist'),
         },
+        resolve: {
+            alias: {
+                'setor': path.resolve(__dirname, 'setor')
+            }
+        }        
         module: {
             rules: [
                 {

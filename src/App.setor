@@ -4,7 +4,6 @@
 
 <script>
     import { useHub, useProps, useRefs } from 'setor';
-
     const refs = useRef();
     const hub = useHub();
     const person = (hub.person = {});
